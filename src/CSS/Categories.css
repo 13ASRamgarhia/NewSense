@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div.scrollmenu,
+div.main-scrollmenu{
+    background-color: #fff;
+    overflow: auto;
+    white-space: nowrap;
+    margin: 0 1rem;
+}
+  
+div.main-scrollmenu a{
+    display: inline-block;
+    color: #333;
+    text-align: center;
+    margin: 14px;
+    text-decoration: none;
+}
+  
+div.main-scrollmenu a:hover{
+    transform: scale(1.1);
+}
+
+.category{
+    margin-top: 0.75rem;
+}
+
+.categories{
+    padding-top: 0rem;
+    line-height: 2rem;
+    border-bottom: #333 solid 0.1px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main-scrollmenu{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+

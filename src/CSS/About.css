@@ -1,0 +1,21 @@
+div.container{
+    width: auto;
+    height: auto;
+    background-color: rgba(255,255,255,0.9);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em 2em;
+    border-radius: 10px;
+}
+
+img.logo{
+    width: 20em;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container p{
+    text-align: justify;
+}
