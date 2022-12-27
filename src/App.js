@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Button from 'react-bootstrap/Button';
 import Offcanvas from 'react-bootstrap/Offcanvas';
+import AlertDismissible from './Components/Alert';
 import News from './Components/News';
 import About from './Components/About';
 import Footer from './Components/Footer';
@@ -99,7 +100,7 @@ const App = ({ ...props }) => {
               </div>
             </div>
           </nav>
-
+          <AlertDismissible />
           <Switch>
             <Route exact path='/About'><About darkModeTheme={darkModeTheme} /></Route>
           </Switch>
